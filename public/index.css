@@ -1,0 +1,51 @@
+.homeimg{
+    position:absolute;
+    right:0;
+    bottom:0;
+    height:400px;
+}
+.mainheading{
+    position: absolute;
+    top:10rem;
+    width:100vw;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.mainheading h1{
+    font-size: 6rem;
+}
+.mainheading p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+@media only screen and (max-width:1024px) {
+    .homeimg{
+        position:absolute;
+        right:0;
+        bottom:5rem;
+        height:200px;
+    }
+    .mainheading h1{
+        font-size: 3rem;
+    }
+    .mainheading p{
+        font-size: 1.2rem;
+        margin-top:1rem;
+    }
+    .mainheading .button{
+        margin-top:1rem;
+    }
+    
+}
+.mainheading .button{
+    width:200px;
+    text-align: center;
+    background-color: rgb(251, 166, 39);
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 3rem;
+    font-weight: bolder;
+}
